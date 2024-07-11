@@ -1,4 +1,4 @@
-package com.example.jetweatherapp.data.remote.module
+package com.example.jetweatherapp.data.remote.models
 
 
 import kotlinx.serialization.SerialName

@@ -1,27 +1,27 @@
-package com.example.jetweatherapp.data.remote.module
+package com.example.jetweatherapp.data.remote.models
 
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class ApiDailyWeather(
+data class DailyUnits(
     @SerialName("sunrise")
-    val sunrise: List<Int>,
+    val sunrise: String,
     @SerialName("sunset")
-    val sunset: List<Int>,
+    val sunset: String,
     @SerialName("temperature_2m_max")
-    val temperature2mMax: List<Double>,
+    val temperature2mMax: String,
     @SerialName("temperature_2m_min")
-    val temperature2mMin: List<Double>,
+    val temperature2mMin: String,
     @SerialName("time")
-    val time: List<Long>,
+    val time: String,
     @SerialName("uv_index_max")
-    val uvIndexMax: List<Double>,
+    val uvIndexMax: String,
     @SerialName("weather_code")
-    val weatherCode: List<Int>,
+    val weatherCode: String,
     @SerialName("wind_direction_10m_dominant")
-    val windDirection10mDominant: List<Double>,
+    val windDirection10mDominant: String,
     @SerialName("wind_speed_10m_max")
-    val windSpeed10mMax: List<Double>
+    val windSpeed10mMax: String
 )

@@ -1,23 +1,23 @@
-package com.example.jetweatherapp.data.remote.module
+package com.example.jetweatherapp.data.remote.models
 
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class ApiCurrentWeather(
+data class CurrentUnits(
     @SerialName("interval")
-    val interval: Int,
+    val interval: String,
     @SerialName("is_day")
-    val isDay: Int,
+    val isDay: String,
     @SerialName("temperature_2m")
-    val temperature2m: Double,
+    val temperature2m: String,
     @SerialName("time")
-    val time: Long,
+    val time: String,
     @SerialName("weather_code")
-    val weatherCode: Int,
+    val weatherCode: String,
     @SerialName("wind_direction_10m")
-    val windDirection10m:Double,
+    val windDirection10m: String,
     @SerialName("wind_speed_10m")
-    val windSpeed10m: Double
+    val windSpeed10m: String
 )

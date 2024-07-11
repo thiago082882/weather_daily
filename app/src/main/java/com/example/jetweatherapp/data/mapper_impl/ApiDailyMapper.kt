@@ -1,7 +1,7 @@
 package com.example.jetweatherapp.data.mapper_impl
 
 import com.example.jetweatherapp.data.mapper.ApiMapper
-import com.example.jetweatherapp.data.remote.module.ApiDailyWeather
+import com.example.jetweatherapp.data.remote.models.ApiDailyWeather
 import com.example.jetweatherapp.domain.models.Daily
 import com.example.jetweatherapp.utils.Util
 import com.example.jetweatherapp.utils.WeatherInfoItem
@@ -18,8 +18,7 @@ class ApiDailyMapper : ApiMapper<Daily, ApiDailyWeather> {
             sunrise = apiEntity.sunrise.map { Util.formatUnixDate("HH:mm", it.toLong()) },
             uvIndex = apiEntity.uvIndexMax,
             windSpeed = apiEntity.windSpeed10mMax
-
-            )
+        )
     }
 
     private fun parseTime(time: List<Long>): List<String> {
@@ -37,4 +36,5 @@ class ApiDailyMapper : ApiMapper<Daily, ApiDailyWeather> {
             Util.getWindDirection(it)
         }
     }
+
 }

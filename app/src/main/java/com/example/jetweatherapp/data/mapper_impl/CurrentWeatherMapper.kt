@@ -1,7 +1,7 @@
 package com.example.jetweatherapp.data.mapper_impl
 
 import com.example.jetweatherapp.data.mapper.ApiMapper
-import com.example.jetweatherapp.data.remote.module.ApiCurrentWeather
+import com.example.jetweatherapp.data.remote.models.ApiCurrentWeather
 import com.example.jetweatherapp.domain.models.CurrentWeather
 import com.example.jetweatherapp.utils.Util
 import com.example.jetweatherapp.utils.WeatherInfoItem

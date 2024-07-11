@@ -1,6 +1,7 @@
 package com.example.jetweatherapp.data.remote
 
-import com.example.jetweatherapp.data.remote.module.ApiWeather
+
+import com.example.jetweatherapp.data.remote.models.ApiWeather
 import com.example.jetweatherapp.utils.ApiParameters
 import com.example.jetweatherapp.utils.K
 import retrofit2.http.GET
@@ -34,7 +35,7 @@ interface WeatherApi {
             "temperature_2m",
         ),
         @Query(ApiParameters.TIME_FORMAT) timeformat: String = "unixtime",
-        @Query(ApiParameters.TIMEZONE) timeZone: String = "America/Sao_Paulo"
+        @Query(ApiParameters.TIMEZONE) timeZone: String = "Africa/Dar_es_Salaam",
 
         ): ApiWeather
 

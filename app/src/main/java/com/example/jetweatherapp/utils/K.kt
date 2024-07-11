@@ -1,7 +1,7 @@
 package com.example.jetweatherapp.utils
 
 object K{
-    const val API_BASE_URL = "https://api.open-meteo.com/v1/"
+    const val API_BASE_URL ="https://api.open-meteo.com/v1/"
     const val END_POINT = "forecast"
 }
 

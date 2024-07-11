@@ -5,10 +5,10 @@ import com.example.jetweatherapp.data.mapper_impl.ApiDailyMapper
 import com.example.jetweatherapp.data.mapper_impl.ApiHourlyMapper
 import com.example.jetweatherapp.data.mapper_impl.ApiWeatherMapper
 import com.example.jetweatherapp.data.mapper_impl.CurrentWeatherMapper
-import com.example.jetweatherapp.data.remote.module.ApiCurrentWeather
-import com.example.jetweatherapp.data.remote.module.ApiDailyWeather
-import com.example.jetweatherapp.data.remote.module.ApiHourlyWeather
-import com.example.jetweatherapp.data.remote.module.ApiWeather
+import com.example.jetweatherapp.data.remote.models.ApiCurrentWeather
+import com.example.jetweatherapp.data.remote.models.ApiDailyWeather
+import com.example.jetweatherapp.data.remote.models.ApiHourlyWeather
+import com.example.jetweatherapp.data.remote.models.ApiWeather
 import com.example.jetweatherapp.domain.models.CurrentWeather
 import com.example.jetweatherapp.domain.models.Daily
 import com.example.jetweatherapp.domain.models.Hourly

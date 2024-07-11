@@ -1,10 +1,10 @@
 package com.example.jetweatherapp.data.mapper_impl
 
 import com.example.jetweatherapp.data.mapper.ApiMapper
-import com.example.jetweatherapp.data.remote.module.ApiCurrentWeather
-import com.example.jetweatherapp.data.remote.module.ApiDailyWeather
-import com.example.jetweatherapp.data.remote.module.ApiHourlyWeather
-import com.example.jetweatherapp.data.remote.module.ApiWeather
+import com.example.jetweatherapp.data.remote.models.ApiCurrentWeather
+import com.example.jetweatherapp.data.remote.models.ApiDailyWeather
+import com.example.jetweatherapp.data.remote.models.ApiHourlyWeather
+import com.example.jetweatherapp.data.remote.models.ApiWeather
 import com.example.jetweatherapp.di.ApiCurrentWeatherMapperAnnotation
 import com.example.jetweatherapp.di.ApiDailyMapperAnnotation
 import com.example.jetweatherapp.di.ApiHourlyWeatherMapperAnnotation

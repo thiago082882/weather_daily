@@ -1,4 +1,4 @@
-package com.example.jetweatherapp.data.remote.module
+package com.example.jetweatherapp.data.remote.models
 
 
 import kotlinx.serialization.SerialName
@@ -15,7 +15,7 @@ data class ApiWeather(
     @SerialName("daily_units")
     val dailyUnits: DailyUnits,
     @SerialName("elevation")
-    val elevation: Int,
+    val elevation: Double,
     @SerialName("generationtime_ms")
     val generationtimeMs: Double,
     @SerialName("hourly")
